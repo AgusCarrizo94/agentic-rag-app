@@ -1,0 +1,7 @@
+FROM curlimages/curl:latest
+
+WORKDIR /app
+
+COPY ./model-loader/model-loader.sh /model-loader.sh
+
+ENTRYPOINT ["sh", "/model-loader.sh"]

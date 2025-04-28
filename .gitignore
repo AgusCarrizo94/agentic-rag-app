@@ -1,0 +1,6 @@
+*DS_Store
+
+*qdrant_storage
+
+.venv
+__pycache__
